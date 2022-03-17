@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+    <title> To Bo Javascript</title>
+</head>
+<body>
+    <main id="task-container">
+        <section id="task-header">
+           <h2>Salve sua próxima tarefa</h2>
+           <form action=""id="add-task-form">
+              <input type="text" id="task-title" placeholder="O que você vai fazer ?">
+              <button id="btn-add" type="submit">
+                  <i class="fa fa-plus-circle fa-2x "></i>
+                <!-- aumenta botao fa-2x -->
+            
+               </button>
+            </form>
+        </section>   
+        <section id="task-list-coontainer">
+            <h2> Estas são as suas tarefas:</h2>
+            <ul id="task-list">
+                <!-- foi incluido quando chega javascript  -->
+                <li class="task-box template hide ">
+                    <p class="task-title">tarefa 1</p>
+                     <button class="btn2"><i class="fa fa-check-square btn-done fa-2x"></i></button> 
+                  <button class="btn1"><i class="fa fa-times-circle btn-remove  fa-2x"></i> </button>  
+                </li>
+                <!-- ===================================================== -->
+        
+            </ul>
+        </section>
+   </main>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

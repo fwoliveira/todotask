@@ -1,0 +1,152 @@
+:root{
+    --corescura:  #000000;
+    --corclara:  #05aa94;
+}
+
+body{
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica;
+        background-image: linear-gradient(to right, #05aa94, #000000); 
+        color: #fff;
+        text-align: center;
+        padding-top: 30px;
+}
+
+
+#task-container{
+    width: 500px;
+    margin: 0 auto;
+
+}
+/* form */
+#task-header{
+    margin-top: 40px;
+
+}
+#add-task-form{
+    display: flex;
+
+}
+#add-task-form input{
+    box-sizing: border-box;
+    border: 1px solid var(--corescura);
+    background-color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+
+}
+#add-task-form input::placeholder{
+    color: var(--corescura);
+}
+#add-task-form input:focus{
+    outline: none;
+}
+#btn-add:hover{
+    background-color: var(--corescura);
+    color: #fff;
+    transition: 0.5s ;
+}
+/* lista */
+#task-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+#task-list li{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 3px solid var(--corescura);
+    background-color: #fff;
+    color: var(--corescura);
+    padding-left:15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* alinhando a descricao da tarefa a direita */
+
+#task-list li .task-title{
+    margin-right: auto;
+}
+#task-list li p{
+    font: size 18px;
+
+}
+.btn-done:hover{
+    color: green;
+    /* font-size: 30px; */
+    
+    
+
+
+}
+.btn-remove:hover{
+    color: rgb(173, 9, 9);
+
+
+}
+
+.btn2{
+    padding: 10px;
+}
+.btn2:hover{
+    
+    background-color: var(--corescura);
+    color: #fff;
+   
+    
+}
+#task-list li.done{
+    background-image: linear-gradient(to right, #05aa94, #000000); 
+    /* background-color: var(--corescura); */
+    color: #fff;
+    /* text-decoration: line-through; */
+    
+
+
+}
+.hide{
+    display: none ! important;
+}
+
+.btn1{
+    padding: 10px;
+}
+.btn1:hover{
+    
+    background-color: var(--corescura);
+    color: #fff;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
